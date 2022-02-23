@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/swiper-bundle.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Batman</title>  
+    <title>Batman</title>
 </head>
 
 <body>
@@ -32,17 +34,17 @@
                     <img src="img/twitter.svg" alt="">
                 </a>
                 <a class="header__socials-icon" href="#">
-                   <img src="img/instagram.svg" alt="">
-                </a>    
+                    <img src="img/instagram.svg" alt="">
+                </a>
                 <a class="header__socials-icon" href="#">
-                   <img src="img/facebook.svg" alt="">
-                 </a>
+                    <img src="img/facebook.svg" alt="">
+                </a>
             </div>
-       </div>
+        </div>
     </header>
     <main class="main">
-       <div class="container">
-           <div class="main__rating">
+        <div class="container">
+            <div class="main__rating">
                 <div class="main__rating-title">2022, боевик, триллер</div>
                 <div class="main__rating-wrap">
                     <div class="main__rating-stars">
@@ -75,20 +77,65 @@
                         </div>
                         <div class="main__rating-star">
                             <img src="img/star-unactiv.svg" alt="">
+                        </div>
                     </div>
-                    </div> 
                     <div class="main__rating-number">7/10</div>
                 </div>
-            <h1 class="main__header">Бэтмен</h1> 
-            <div class="main__description">
-               <p> После двух лет поисков правосудия на улицах Готэма для своих сограждан Бэтмен становится олицетворением 
-                беспощадного возмездия. Когда в городе происходит серия жестоких нападений на представителей элиты, 
-                загадочные улики приводят Брюса Уэйна в самые темные закоулки преступного мира. Теперь под прицелом 
-                оказывается сам Бэтмен.</p>
+                <h1 class="main__header">Бэтмен</h1>
+                <div class="main__description-wrap">
+                     <div class="main__description">
+                        <p> После двух лет поисков правосудия на улицах Готэма для своих сограждан Бэтмен становится
+                            олицетворением
+                            беспощадного возмездия. Когда в городе происходит серия жестоких нападений на представителей
+                            элиты,
+                            загадочные улики приводят Брюса Уэйна в самые темные закоулки преступного мира. Теперь под
+                            прицелом
+                            оказывается сам Бэтмен.</p>
+                    </div>
+                    <div class="main__button-play">
+                        <div class="main__button-dark">
+                            <img src="img/Group.svg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+                <a href="#" class="main__button">Купить билеты</a>
+
+                <div class="main-slider__wrap">
+                    <div class="main-slider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="main-slider__slide swiper-slide">
+                                <img src="img/card-image.jpg" alt="">
+                                <span>Трейлер #1</span>
+                            </div>
+                            <div class="main-slider__slide swiper-slide">
+                                <img src="img/card.jpg" alt="">
+                                <span>Трейлер #2</span>
+                            </div>
+                            <div class="main-slider__slide swiper-slide">
+                                <img src="img/card-image.jpg" alt="">
+                                <span>Трейлер #3</span>
+                            </div>
+                            <div class="main-slider__slide swiper-slide">
+                                <img src="img/card.jpg" alt="">
+                                <span>Трейлер #4</span>
+                            </div>
+                            <div class="main-slider__slide swiper-slide">
+                                <img src="img/card-image.jpg" alt="">
+                             <span>Трейлер #5</span>
+                            </div>
+                            <div class="main-slider__slide swiper-slide">
+                                <img src="img/card.jpg" alt="">
+                                <span>Трейлер #6</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-slider__arrow">
+                        <img src="img/arrow.svg" alt="">
+                    </div>
+                </div>
             </div>
-            <a href="#" class="main__button">Купить билеты</a>
-            </div>
-        </div>    
+        </div>
     </main>
 
     <footer class="footer">
@@ -98,16 +145,19 @@
             </div>
             <ul class="footer__menu">
                 <li>
-                 <a href="#">Privacy Policy</a>
+                    <a href="#">Privacy Policy</a>
                 </li>
                 <li>
-                   <a href="#">Terms of Service</a>
+                    <a href="#">Terms of Service</a>
                 </li>
                 <li>
-                   <a href="#">Legal</a>
+                    <a href="#">Legal</a>
                 </li>
             </ul>
         </div>
     </footer>
+    <script src="js/swiper-bundle.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
